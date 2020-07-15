@@ -1,0 +1,13 @@
+.intro{
+  text-align:center;
+}
+
+#description{
+   font-style:italic;
+}
+
+.personal-info{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}

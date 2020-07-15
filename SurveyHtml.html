@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Welcome to my Free Code Camp Survey Form!</title>
+  </head>
+  <body>
+    <main>
+      <div>
+      <div class='intro'>
+      <h1 id='title'>freeCodeCamp Survey Form</h1>
+      <p id = 'description'>Thank you for taking the time to help us improve the platform</p>
+      </div>
+        
+        <div>
+          <section>
+            <form class='personal-info' id='survey-form'>
+              <label id ='name-label'>Name<br>
+                <input type='text' id='name'  required placeholder='Enter your name'>
+              </label>
+              <label id ='email-label'>Email<br>
+                <input type ='email' id = 'email' required placeholder='Enter your Email'>
+              </label>
+              <label id ='number-label'>Age(optional)<br>
+                <input type='number' id ='number'  required placeholder='Age' min='0' max='100'>
+              </label>
+              <label for='dropdown'>Which option best describes your current role?<br>
+                <select id='dropdown' class='personal-items'>
+                  <option id='dropdown'>Select currrent role</option>
+                  <option id='dropdown'>Student</option>
+                  <option id='dropdown'>Full Time Job</option>
+                  <option id='dropdown'>Full Time Learner</option>
+                  <option id='dropdown'>Prefer not to say</option>
+                  <option id='dropdown'>Other</option>
+                </select>
+               </label>
+              
+                  <div>
+                  <h4>Would you recommend freeCodeCamp to a friend?</h4>
+                  <input type='radio' name='attribute' value ='attribute'>Definitely</input>
+               <input type='radio' name='attribute' value ='attribute'>Maybe</input>
+             <input type='radio' name='attribute' value='attribute'>Not sure</input>
+              </div>
+        
+              <div>
+                <h4>What is your favorite feature of freeCodeCamp</h4>
+                 <div>
+                  <select id='dropdown' class='personal-items'>
+                    <option id='dropdown'>Select an option</option>
+                    <option id='dropdown'>Challenges</option>
+                    <option id='dropdown'>Projects</option>
+                    <option id='dropdown'>Community</option>
+                    <option id='dropdown'>Open Source</option>
+                  </select>
+                 </label>
+              </div>
+            
+              <div>
+                <h4>What would you like to see improved? (Check all that apply)</h4>
+                <input type = 'checkbox' value='attribute'>Front-end Projects</input>
+         <input type = 'checkbox' value='attribute'>Back-end Projects</input>
+       <input type = 'checkbox' value='attribute'>Data Visualization</input>
+     <input type = 'checkbox' value='attribute'>Open Source Community</input>
+   <input type = 'checkbox' value='attribute'>Gitter help rooms</input>
+ <input type = 'checkbox' value='attribute'>Videos</input>
+ <input type = 'checkbox' value='attribute'>City Meetups</input>
+ <input type = 'checkbox' value='attribute'>Wiki</input>
+ <input type = 'checkbox' value='attribute'>Forum</input>
+ <input type = 'checkbox' value='attribute'>Additional Courses</input>
+              </div>
+              <div>
+                <textarea row='4' cols='50'>
+                  Enter your comment here...
+                  </textarea>
+</div>
+         
+              <button type='submit' id='submit'>Submit</button>
+             </form>
+          </section>
+        </div>
+        
+      </div>
+    </main>
+  </body>
+</html>
