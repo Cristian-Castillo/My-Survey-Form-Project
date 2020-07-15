@@ -9,48 +9,50 @@
       <h1 id='title'>freeCodeCamp Survey Form</h1>
       <p id = 'description'>Thank you for taking the time to help us improve the platform</p>
       </div>
-                <!-- Form -->
-        <div>
+        <!-- Form -->
+        <div id='formBody'>
           <form id='survey-form'>
-            <label id ='name-label'>Name<br>
-              <input type='text' id='name'  required placeholder='Enter your name' />
-            </label>
-            <br>
-            <label id ='email-label'>Email<br>
-              <input type ='email' id = 'email' required placeholder='Enter your Email' />
-             </label>
-            <br>
-            <label id ='number-label'>Age (optional)<br>
-              <input type='number' id ='number' placeholder='Age' min='0' max='100' />
+              <label id ='name-label'>Name<br>
+                <input type='text' id='name'  required placeholder='Enter your name' />
               </label>
-            <br> 
-            <br>
-            <label for='dropdown'>Which option best describes your current role?<br>
-              <select id='dropdown' style='margin-top:10px;padding:7px 407px 7px 6px;border-radius:4px;'>
-                <option id='dropdown'  >Select current role</option>
-                <option id='dropdown'>Student</option>
-                <option id='dropdown'>Full Time Job</option>
-                <option id='dropdown'>Full Time Learner</option>
-                <option id='dropdown'>Prefer not to say</option>
-                <option id='dropdown'>Other</option>
-               </select>
+              <br>
+              <label id ='email-label'>Email<br>
+                <input type ='email' id = 'email' required placeholder='Enter your Email' />
                </label>
-            <h4>Would you recommend freeCodeCamp to a friend?</h4>
-            <input type='radio' name='attribute' value ='attribute'> Definitely</input><br>
-               <input type='radio' name='attribute' value ='attribute'> Maybe</input><br>
-             <input type='radio' name='attribute' value='attribute'> Not sure</input>
-      
-            <h4>What is your favorite feature of freeCodeCamp</h4>
-            <select id='dropdown' style='padding:7px 422px 7px 6px;border-radius:4px;'>
-              <option id='dropdown'>Select an option</option>
-              <option id='dropdown'>Challenges</option>
-              <option id='dropdown'>Projects</option>
-              <option id='dropdown'>Community</option>
-              <option id='dropdown'>Open Source</option>
-            </select>
-            
-                <h4>What would you like to see improved? (Check all that apply)</h4>
-            
+              <br>
+              <label id ='number-label'>Age (optional)<br>
+                <input type='number' id ='number' placeholder='Age' min='0' max='100'>
+               </label>
+              <br> 
+              <br> 
+            <!-- Drop down Menu -->
+            <label for='dropdown' style='font-weight:200;'>Which option best describes your current role?<br>
+              <select class ='styleSelect' id='dropdown'>
+                  <option>Select current role</option>
+                  <option>Student</option>
+                  <option>Full Time Job</option>
+                  <option>Full Time Learner</option>
+                  <option>Prefer not to say</option>
+                  <option>Other</option>
+                </select>
+               </label>
+                  <h4 style='font-weight:200;'>Would you recommend freeCodeCamp to a friend?</h4>
+                  <input type='radio' name='attribute' value ='attribute'> Definitely</input><br>
+                     <input type='radio' name='attribute' value ='attribute'> Maybe</input><br>
+                   <input type='radio' name='attribute' value='attribute'> Not sure</input>
+                    <!-- Drop down Menu -->
+                  <h4 style='font-weight:200;'>What is your favorite feature of freeCodeCamp</h4>
+                  <div>
+                  <select id='dropdown' class='styleSelectOpt'>
+                    <option id='dropdown'>Select an option</option>
+                    <option id='dropdown'>Challenges</option>
+                    <option id='dropdown'>Projects</option>
+                    <option id='dropdown'>Community</option>
+                    <option id='dropdown'>Open Source</option>
+                  </select>
+                </div>
+                <!--CheckBoxes -->
+                <h4 style='font-weight:200;'>What would you like to see improved? (Check all that apply)</h4>
                  <input type = 'checkbox' value='attribute'> Front-end Projects</input><br>
                  <input type = 'checkbox' value='attribute'> Back-end Projects</input><br>
                  <input type = 'checkbox' value='attribute'> Data Visualization</input><br>
@@ -61,15 +63,15 @@
                  <input type = 'checkbox' value='attribute'> Wiki</input><br>
                  <input type = 'checkbox' value='attribute'> Forum</input><br>
                  <input type = 'checkbox' value='attribute'> Additional Courses</input><br>
-                  
-
-                <h4>Any comments or suggestions?</h4>
+                 <!-- Suggestion Box & Button -->
+                <h4 style='font-weight:200;'>Any comments or suggestions?</h4>
                 <textarea row='15' cols='50'>Enter your comment here...
                 </textarea>
                 <div id='buttonLayout'>
-                <button type='submit' id='submit'>Submit</button>
-</div>
+                  <button type='submit' id='submit'>Submit</button>
+                </div>
             </form>     
+        </div>
     </main>
   </body>
 </html>

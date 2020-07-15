@@ -15,17 +15,49 @@ body{
   margin-top:35px;
   text-align:center;
   margin-bottom:25px;
-  font-size:1em;
+  font-size:1.1em;
 }
 
 #description{
    font-style:italic;
+   text-align:justify;
+   font-size:1.127em;
+   text-align:center;
 }
 
 #mainContent{
   display:flex;
   flex-direction:column;
   align-items:center;
+}
+/* Adjust Screen for smaller devices*/
+@media(max-width:540px){
+  #survey-form{
+    background: var(--color-darkblue-alpha);
+    margin-left:1px !important;
+    padding-left:30px !important;
+  }
+  #name{
+    padding-right:290px !important;
+  }
+  #email{
+     padding-right:290px !important;
+  }
+  #number{
+     padding-right:400px !important;
+  }
+ .styleSelect{
+    padding:7px 312px 7px 5px !important;
+  }
+  .styleSelectOpt{
+    padding:7px 325px 7px 5px !important;
+  }
+  textarea{
+      padding:5px 33px 90px 7px !important;
+  }
+  button{
+      padding: 13.5px 200px 13.5px 200px !important;
+  }
 }
 
 #survey-form{
@@ -42,15 +74,14 @@ body{
 
 #name{
   padding: 7px 395px 7px 6px;
-  border-radius:4px;
+  border-radius:6px;
   margin-top:10px;
   margin-bottom:25px;
-
 }
 
 #email{
    padding: 7px 395px 7px 6px;
-   border-radius:4px;
+   border-radius:6px;
    margin-top:10px;
    margin-bottom:25px;
 }
@@ -58,22 +89,37 @@ body{
 #number{
   margin-top:10px;
   margin-bottom:25px;
-  padding-right:500px;
+  padding-right:503px;
   padding-top:7px;
   padding-bottom:7px;
+  border-radius:6px;
+  padding-left:2px;
+}
+
+.styleSelect{
+  margin-top:7px;
+  padding:7px 413px 7px 5px;
+  border-radius:6px;
+  color:gray;
+}
+
+.styleSelectOpt{
+  margin-top:7px;
+  padding:7px 427px 7px 5px;
+  border-radius:6px;
+  color:gray;
 }
 
 .personal-items{
   padding: 7px 395px 7px 6px;
-  border-radius:4px;
+  border-radius:6px;
 }
-
+/* Select all checkbox/radio with the attribute selector*/
 [type='checkbox']{
   margin-bottom:16px;
   font-family: Poppins, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
-  
 }
 
 [type='radio']{
@@ -82,21 +128,22 @@ body{
 }
 
 textarea{
-  padding:5px 140px 90px 7px;
+  padding:5px 133px 90px 7px;
+  border-radius:3px;
+  color:gray;
 }
 
 button{
   background-color:#37AF65;
   cursor:pointer;
   color:white;
-  border-radius:4px;
-  padding: 14.5px 250px 14.5px 250px;
-  border-style:solid;
-  border-color:black;
+  border-radius:3.5px;
+  padding: 13.5px 250px 13.5px 250px;
   font-size:1em;
+  border-width:1px;
+  border-color:black;
 }
 
 #buttonLayout{
      margin-top:30px;
 }
-
