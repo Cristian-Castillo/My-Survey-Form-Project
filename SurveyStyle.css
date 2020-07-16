@@ -38,19 +38,24 @@ body{
     padding-left:30px !important;
   }
   #name{
-    padding-right:290px !important;
+      height:30px !important;
+      width:280px !important;
   }
   #email{
-     padding-right:290px !important;
+      height:30px !important;
+      width:280px !important;
   }
   #number{
-     padding-right:400px !important;
+      height:30px !important;
+      width:280px !important;
   }
  .styleSelect{
-    padding:7px 312px 7px 5px !important;
+      height:30px !important;
+      width:280px !important;
   }
   .styleSelectOpt{
-    padding:7px 325px 7px 5px !important;
+      height:30px !important;
+      width:280px !important;
   }
   textarea{
       padding:5px 33px 90px 7px !important;
@@ -73,14 +78,16 @@ body{
 }
 
 #name{
-  padding: 7px 395px 7px 6px;
+  height:30px;
+  width:530px;
   border-radius:6px;
   margin-top:10px;
   margin-bottom:25px;
 }
 
 #email{
-   padding: 7px 395px 7px 6px;
+   height:30px;
+    width:530px;
    border-radius:6px;
    margin-top:10px;
    margin-bottom:25px;
@@ -89,23 +96,22 @@ body{
 #number{
   margin-top:10px;
   margin-bottom:25px;
-  padding-right:503px;
-  padding-top:7px;
-  padding-bottom:7px;
   border-radius:6px;
-  padding-left:2px;
+  height:30px;
+  width:530px;
 }
 
 .styleSelect{
   margin-top:7px;
-  padding:7px 413px 7px 5px;
+  padding:7px 400px 7px 5px;
   border-radius:6px;
   color:gray;
 }
 
 .styleSelectOpt{
   margin-top:7px;
-  padding:7px 427px 7px 5px;
+  height:30px;
+  width:540px;
   border-radius:6px;
   color:gray;
 }
@@ -128,7 +134,8 @@ body{
 }
 
 textarea{
-  padding:5px 133px 90px 7px;
+  height:200px;
+  width:520px;
   border-radius:3px;
   color:gray;
 }
@@ -138,7 +145,8 @@ button{
   cursor:pointer;
   color:white;
   border-radius:3.5px;
-  padding: 13.5px 250px 13.5px 250px;
+  height:45px;
+  width:530px;
   font-size:1em;
   border-width:1px;
   border-color:black;
@@ -147,3 +155,4 @@ button{
 #buttonLayout{
      margin-top:30px;
 }
+
