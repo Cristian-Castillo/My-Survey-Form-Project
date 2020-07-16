@@ -30,38 +30,44 @@ body{
   flex-direction:column;
   align-items:center;
 }
-/* Adjust Screen for smaller devices*/
-@media(max-width:540px){
+
+@media(min-width:260px){
   #survey-form{
     background: var(--color-darkblue-alpha);
     margin-left:1px !important;
     padding-left:30px !important;
+    width:430px;
   }
   #name{
       height:30px !important;
-      width:280px !important;
+      width:400px !important;
   }
   #email{
       height:30px !important;
-      width:280px !important;
+      width:400px !important;
   }
   #number{
       height:30px !important;
-      width:280px !important;
+      width:400px !important;
   }
+  
  .styleSelect{
       height:30px !important;
-      width:280px !important;
+      width:400px !important;
   }
   .styleSelectOpt{
       height:30px !important;
-      width:280px !important;
+      width:400px !important;
   }
   textarea{
-      padding:5px 33px 90px 7px !important;
+      height:120px !important;
+      width:395px !important;
   }
   button{
-      padding: 13.5px 200px 13.5px 200px !important;
+    width:400px !important;
+    padding-right:30px !important;
+    text-align:center !important;
+    padding-left:28px !important;
   }
 }
 
@@ -155,4 +161,3 @@ button{
 #buttonLayout{
      margin-top:30px;
 }
-
